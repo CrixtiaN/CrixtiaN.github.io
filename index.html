@@ -2,14 +2,37 @@
 <head>
 <link rel="icon" type="image/x-icon" href="https://pages.github.com/favicon.ico" />
 <title>.:CrixtiaN:.</title>
+<script>
+  function factorial()
+  {
+  	var n,i,f;
+  	do{
+    		f=1;
+    		n = prompt('Introduzca cualquier numero para calcular su factorial','');
+    		for (i=1;i<=n;i++)
+    		{
+    			f=f*i;
+    		}
+    		/*for (i=n;i>=1;i--)
+    		{
+    			f=f*i;
+    		}*/
+    		alert('El factorial de '+n+' es: '+f);
+  	}
+  	while((confirm('Desea calcular otro factorial?'))==true);
+  }
+</script>
+
 </head>
 <body>
-<pre style="text-align: center">
-Hi, this's the best page ever!
-
-
-By Cristian Rivas
-</pre>
+  <pre style="text-align: center">
+  Hi, this's the best page ever!
+  
+  Useful scripts:
+  <a href="#" onclick="factorial()">Calcular Factorial</a>
+  
+  By Cristian Rivas
+  </pre>
 <!--
 <p style="text-align: center">By Cristian Rivas</p>
 -->
