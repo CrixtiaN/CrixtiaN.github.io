@@ -1,0 +1,168 @@
+.movie-card-title{
+  padding: 16px 16px 0px 16px !important;
+}
+
+.movie-card-subtitle{
+  padding: 5px 16px 16px 16px !important;
+  line-height: 1.5;
+}
+
+.movie-card-subtitle-icon{
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.custom-layout-background {
+  background-image: url('http://www.woodbangers.com/u/media/moxie/files/W/Wo/Woo/WoodBangers/deadpool.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.opacity-for-background{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.main-title-cards{
+  font-size: 18px !important;
+}
+
+.main-cards-icon-border{
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  /*font-size: 1rem;*/
+  /*line-height: 18px;*/
+  overflow: hidden;
+  padding: 16px;
+}
+
+.main-card-icon-size {
+  font-size: 80px;
+}
+
+.mdl-layout__drawer-button:focus {
+    outline-style: none;
+}
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.main-card-links {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.main-card-links:hover {
+  color: rgb(255,82,82); /*cambiar por azul xD*/
+}
+
+.card-supporting-text-full-width {
+  width: initial !important;
+}
+
+.main-card-min-height{
+  min-height: 175px !important;
+}
+
+.to-the-rigth{
+  float: right;
+}
+
+.space-for-footer{
+  min-height: 15cm;
+}
+
+.navigation-links-buttons{
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+
+.disqus-card{
+  padding: 16px;
+}
+
+.navigation-menu-link
+{
+  text-decoration: none;
+  color: rgba(0,0,0,.87);
+  display: block;
+  font-weight: 400;
+}
+/*---Color Classes----
+
+.mdl-color--indigo {}
+.mdl-color-text--indigo {}
+.mdl-color--grey-200 {}
+.mdl-color-text--grey-200 {}
+.mdl-color--primary {}
+.mdl-color-text--primary {}
+.mdl-color--accent {}
+.mdl-color-text--accent {}
+.mdl-color--primary-contrast {}
+.mdl-color--primary-dark {}
+.mdl-color-text--accent-contrast {}
+
+---Color Classes----*/
+
+/*----------------------------------------------------------*/
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.demo-page--palette.demo-preview-block {
+  display: inline-block;
+}
+
+.demo-palette {
+  margin-top: 15px;
+  width: 360px;
+  float: left;
+}
+
+@media screen and (max-width: 360px ) {
+  .demo-palette {
+    width: 272px;
+  }
+}
+
+.demo-palette-color, .demo-palette-heading {
+  max-width: 300px;
+  padding: 15px;
+  color: white;
+}
+
+.demo-palette .demo-palette--dark-text,
+.demo-palette-heading.demo-palette--dark-text .demo-palette-name {
+  color: #000;
+}
+
+.demo-palette-name {
+  padding: 0 0 60px 0;
+}
+
+.demo-palette-single {
+  padding: 15px 15px 25px;
+}
+
+.demo-palette-single .demo-palette-name {
+  padding: 0;
+  float: left;
+}
+
+/*----------------------------------------------------------*/
