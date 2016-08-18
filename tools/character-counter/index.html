@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Character Counter</title>
+    <meta name="description" content="Character Counter">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <!--
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    -->
+    <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.min.css">
+-->
+</head>
+
+<body>
+    <div class="container" id="main-content">
+        <div class="row">
+            <form id="1form">
+                <!--
+      <textarea id="t" style="margin-top: 0px;margin-bottom: 0px;height: 400px;width: 500px;" onchange="lg()" oninput="(function(){document.getElementById('c').innerText=document.getElementById('t').value.length})()"></textarea>
+      -->
+                <div class="form-group">
+                    <label for="text-box">Paste your text here:</label>
+                    <textarea id="text-box" class="form-control" rows="15" oninput="lg()"></textarea>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-7 col-sm-4 col-md-3">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="addon-text">Count</span>
+                            <input type="text" class="form-control" id="counter" placeholder="0" aria-describedby="addon-text" readonly>
+                            <!--
+              <button onclick="(function(){document.getElementById('t').value=''})()">Reset</button>
+              <code id="c">0</code>-->
+                        </div>
+                    </div>
+                    <input type="button" id="btn-rst" class="btn btn-primary" value="Clear" onclick="clr()">
+                </div>
+            </form>
+        </div>
+        <!--1row-->
+    </div>
+    <!--main-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.3/holder.min.js"></script>
+-->
+</body>
+
+</html>
