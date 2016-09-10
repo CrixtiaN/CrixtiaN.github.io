@@ -1,0 +1,46 @@
+#base_code_0{
+  display: none;
+}
+
+.palette-color--card{
+  /*font-size:13px;
+  font-weight:700;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,.2);*/
+}
+
+/*.palette-color--header{
+  padding:10px 15px 11px;
+}*/
+
+.divide{
+  border-bottom: 4px solid #f5f5f5;
+}
+
+.palette-color--name{
+  margin-bottom: 53px;
+}
+
+.palette-color{
+  padding:10px 15px 11px;
+}
+
+.hex-value{
+  float:right;
+  text-transform: uppercase;
+}
+
+.dark{
+  color: rgba(0,0,0,0.870588) !important;
+}
+
+.light{
+  color: rgba(255,255,255,0.870588) !important;
+}
+
+.dark-strong{
+  color: #000 !important;
+}
+
+.light-strong{
+  color:#fff !important;
+}
